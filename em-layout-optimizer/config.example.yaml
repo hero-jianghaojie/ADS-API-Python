@@ -1,0 +1,20 @@
+# Copy to config.yaml and edit. Placeholders only - no absolute paths in this repo.
+calibration:
+  f_lo_ghz: 1.6
+  f_hi_ghz: 2.6
+  f_step_ghz: 0.05
+  drive_dbm: 30.0
+  harmonic_order: 5
+  fund_oversample: 16
+  term_ohm: 50.0
+
+solver:
+  # any command line solver; {dir} {out} {name} are substituted by scripts/run_batch.py
+  cmd: "mysolver -mesh fine -project {dir}/project -output {out}/result"
+  timeout_s: 900
+  jobs: 2
+
+paths:
+  layouts: "layouts/"
+  results: "results.json"
+  figures: "figs/"

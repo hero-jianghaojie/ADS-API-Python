@@ -1,0 +1,7 @@
+# Synthetic demo layout: a through line, two coupled strips and one open stub.
+# Units are millimetres; coordinates are arbitrary.
+POLY  -20.0,3.0  10.0,3.0  10.0,6.0  -20.0,6.0   # through line
+POLY  -8.0,6.0  -7.2,6.0  -7.2,9.0  -8.0,9.0     # open stub (the tunable knob)
+POLY  -2.0,3.0  -1.2,3.0  -1.2,9.0  -2.0,9.0     # coupled strip
+POLY  0.0,3.0  0.8,3.0  0.8,9.0  0.0,9.0         # coupled strip 2
+POLY  10.0,3.0  20.0,3.0  20.0,6.0  10.0,6.0     # output line
