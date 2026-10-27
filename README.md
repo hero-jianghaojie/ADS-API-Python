@@ -28,4 +28,4 @@
 - `rf-automation` ← ads-rf-automation @ `e57d6e0`
 - `em-layout-optimizer` ← em-layout-optimizer @ `0cd4efb`
 
-原仓库暂未删除，可作为备份与历史记录；确认无误后可归档（archive）而非删除。
+原仓库已归档（archived，只读，可随时 unarchive 恢复），作为历史与备份；日常维护集中在主仓。
